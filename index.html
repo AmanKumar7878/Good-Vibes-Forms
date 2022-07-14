@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id ="tit">Good Vibes Form</h1>
+        <div id ="fdiv">
+            <form action="" method="get">
+            <h4>Tell us something positive that happened to you today.</h4>   
+            <div id ="op1">
+                <Name: for="" class="labelS">Name: </label>
+                <input type="text" placeholder="Enter your Full Name" name="fname" />
+              </div>
+      
+              <div id ="op2">
+                <label for="" class="labelS">Enter e-mail: </label>
+                <input type="email" placeholder="Enter email address" name="email" />
+              </div>
+              <div id="op3">
+                <label for="" class="labelS"> How good was it? choosen (0-10) </label>
+                <input type="number" placeholder="choose no.(0-10)" name="rating" />
+              </div>   
+              <div id ="op4">
+                <label for="" class="labelS"> Where did it happen? </label>
+                <select name="" id="">
+                    <option value="disabled">choose a place </option>
+                    <option value="Home">Home</option>
+                    <option value="School">School</option>
+                    <option value="Other">Other</option>
+                </select>
+              </div>  
+              <div id="op5">
+                <label for="" class="labelS"> At what time of dat did it happen? </label>
+                <input type="radio" name="Morning"  value="Morning" />Morning
+                <input type="radio" name="Evening"  value="Evening"  />Evening
+                <input type="radio" name="Afternoon"  value="Afternoon" />Afternoon
+
+              </div>
+              <div id ="op6">
+                <label for="" class="labelS">What emotions did you experience? (Select all that apply)</label> <br>
+                <input type="checkbox" value="Exited" name="emotion" />Exited <br>
+                <input type="checkbox" value="Humbled" name="emotion" />Humbled <br>
+                <input type="checkbox" value="Elated" name="emotion" />Elated <br>
+                <input type="checkbox" value="Loved" name="emotion" />Loved <br>
+               
+              </div>  
+              <div id ="op7">
+                <br>
+                <label for="" class=""labelS> Please describe your positive Experience</label>
+                <input type="text">
+              </div>
+              
+              <div>
+                <button type="submit"> Submit</button>
+              </div>
+              <br>
+              <div>
+                <button type="reset">Reset</button>
+              </div>
+
+            </form>
+
+        </div>
+        
+    </div>
+
+</body>
+</html>
